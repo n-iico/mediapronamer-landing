@@ -262,8 +262,8 @@ body {
 
 .showcase-flow {
   display: grid;
-  grid-template-columns: 1fr auto 1fr;
-  gap: 24px;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
   align-items: stretch;
 }
 
@@ -271,15 +271,16 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 28px 24px;
+  padding: 26px 22px;
   border-radius: 0;
-  min-height: 130px;
+  min-height: 120px;
 }
 
 .show-file code {
   font-family: var(--font-mono);
-  word-break: break-all;
-  font-size: 14px;
+  white-space: nowrap;
+  overflow-x: auto;
+  font-size: 12px;
   line-height: 1.6;
 }
 
@@ -309,39 +310,6 @@ body {
   letter-spacing: 1.5px;
   margin-bottom: 16px;
   display: block;
-}
-
-.show-arrow {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  padding: 0 4px;
-}
-
-.arrow-glyph {
-  font-family: var(--font-pixel);
-  font-size: 28px;
-  color: var(--pink);
-  text-shadow:
-    0 0 12px var(--pink),
-    0 0 28px rgba(255, 0, 128, 0.5);
-  animation: arrowPulse 2s ease-in-out infinite;
-}
-
-@keyframes arrowPulse {
-  0%, 100% { transform: translateX(0); opacity: 1; }
-  50% { transform: translateX(4px); opacity: 0.7; }
-}
-
-.arrow-label {
-  font-family: var(--font-mono);
-  font-size: 8px;
-  letter-spacing: 1.5px;
-  color: var(--cyan);
-  white-space: nowrap;
-  writing-mode: horizontal-tb;
 }
 
 /* ============================================
@@ -788,15 +756,9 @@ body {
   .logo-neon { font-size: 8px; }
   .sub, .about, .feat p, .founder-bio, .pricing-text p { font-size: 17px; }
   .showcase { padding: 24px 18px 32px; }
-  .showcase-flow { grid-template-columns: 1fr; gap: 16px; }
-  .show-arrow { flex-direction: row; gap: 14px; padding: 6px 0; }
-  .arrow-glyph { transform: rotate(90deg); font-size: 22px; }
-  @keyframes arrowPulse {
-    0%, 100% { transform: rotate(90deg) translateX(0); opacity: 1; }
-    50% { transform: rotate(90deg) translateX(4px); opacity: 0.7; }
-  }
+  .showcase-flow { grid-template-columns: 1fr; gap: 14px; }
   .show-file { min-height: 0; padding: 22px 18px; }
-  .show-file code { font-size: 12px; }
+  .show-file code { font-size: 11px; }
   .statement { padding: 36px 22px; }
 }
 
