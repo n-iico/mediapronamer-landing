@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>MediaProNamer — Professional file naming for media workflows</title>
+<meta name="description" content="MediaProNamer es una herramienta profesional para crear nombres de archivos audiovisuales claros, técnicos y consistentes. Para edición, postproducción, VFX, broadcast, delivery y archivo." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<div class="grid-bg" aria-hidden="true"></div>
+<div class="scan-line" aria-hidden="true"></div>
+
+<nav class="nav">
+  <div class="logo-block">
+    <div class="logo">
+      <span class="logo-word">MEDIA</span>
+      <span class="logo-word">PRO</span>
+      <span class="logo-word">NAMER</span>
+      <span class="logo-neon">NEON</span>
+    </div>
+    <div class="logo-sub">ADVANCED_FILE_NAMING_SYSTEM_V3.0</div>
+  </div>
+  <div class="nav-right">
+    <div class="status">
+      <span class="status-label">SYS.STATUS:</span>
+      <span class="status-value">ONLINE</span>
+      <span class="status-dot" aria-hidden="true"></span>
+    </div>
+    <div class="lang" role="group" aria-label="Language selector">
+      <button data-lang="es" class="active" onclick="setLang('es')">ES</button>
+      <button data-lang="en" onclick="setLang('en')">EN</button>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <h1 class="h1">
+    <span data-i18n="h1a">Nombres </span><span class="neon-pink" data-i18n="h1b">profesionales</span><br>
+    <span data-i18n="h1c">para workflows </span><span class="neon-cyan" data-i18n="h1d">audiovisuales</span><span data-i18n="h1e"> reales.</span>
+  </h1>
+  <p class="sub" data-i18n="sub">Crea nombres claros, técnicos y consistentes para edición, color, VFX, sonido, delivery y archivo.</p>
+  <p class="tagline" data-i18n="tag">&gt; Nunca más <code>final_final_este_si.mov</code></p>
+  <div class="cta">
+    <a href="https://app.mediapronamer.com" class="btn btn-primary">
+      <span data-i18n="cta1">ENTRAR A LA APP</span> <span aria-hidden="true">→</span>
+    </a>
+    <a href="#features" class="btn btn-secondary" data-i18n="cta2">CÓMO FUNCIONA</a>
+  </div>
+</header>
+
+<section class="panel">
+  <div class="panel-header">
+    <span class="panel-bracket">[</span>
+    <span class="panel-title" data-i18n="title-before">BEFORE / AFTER</span>
+    <span class="panel-bracket">]</span>
+  </div>
+  <div class="compare">
+    <div class="file file-bad">
+      <span class="file-label bad-label" data-i18n="bad">✕ CAOS</span>
+      <code>video_final_ok_ok_este_si_v3.mov</code>
+    </div>
+    <div class="file file-good">
+      <span class="file-label good-label" data-i18n="good">✓ ORDEN</span>
+      <code>PROYECTO_EP01_MASTER_4K_REC709_PRORES_2398_51_2026-06-19.mov</code>
+    </div>
+  </div>
+</section>
+
+<section class="panel">
+  <div class="panel-header">
+    <span class="panel-bracket">[</span>
+    <span class="panel-title" data-i18n="title-what">WHAT IS IT</span>
+    <span class="panel-bracket">]</span>
+  </div>
+  <p class="about" data-i18n="about-1"><strong>MediaProNamer</strong> es una herramienta profesional para crear nombres de archivos audiovisuales claros, técnicos y consistentes.</p>
+  <p class="about" data-i18n="about-2">Diseñada para edición, postproducción, VFX, broadcast, delivery y archivo. No es un MAM. No es un DAM. Es naming profesional. Liviano, específico, directo.</p>
+</section>
+
+<section class="panel" id="features">
+  <div class="panel-header">
+    <span class="panel-bracket">[</span>
+    <span class="panel-title" data-i18n="title-feat">CORE FEATURES</span>
+    <span class="panel-bracket">]</span>
+  </div>
+  <div class="features">
+    <article class="feat">
+      <div class="feat-num">01</div>
+      <h3 data-i18n="f1-t">Campos técnicos audiovisuales</h3>
+      <p data-i18n="f1-d">Resolución, espacio de color, códec, frame rate, aspect ratio, audio, fecha y más.</p>
+    </article>
+    <article class="feat">
+      <div class="feat-num">02</div>
+      <h3 data-i18n="f2-t">Orden configurable</h3>
+      <p data-i18n="f2-d">Tú decides cómo se estructura cada nombre según tu pipeline.</p>
+    </article>
+    <article class="feat">
+      <div class="feat-num">03</div>
+      <h3 data-i18n="f3-t">Privacidad real</h3>
+      <p data-i18n="f3-d">No recolectamos datos. Tu material confidencial sigue siendo tuyo.</p>
+    </article>
+    <article class="feat">
+      <div class="feat-num">04</div>
+      <h3 data-i18n="f4-t">Liviano y específico</h3>
+      <p data-i18n="f4-d">Hecho desde la sala de post. Sin curva de aprendizaje absurda.</p>
+    </article>
+  </div>
+</section>
+
+<section class="panel">
+  <div class="panel-header">
+    <span class="panel-bracket">[</span>
+    <span class="panel-title" data-i18n="title-price">PRICING</span>
+    <span class="panel-bracket">]</span>
+  </div>
+  <div class="pricing">
+    <div class="pricing-grid">
+      <div class="credits-box">
+        <div class="credits">10</div>
+        <div class="credits-label" data-i18n="credits-lbl">FREE CREDITS</div>
+      </div>
+      <div class="pricing-text">
+        <p data-i18n="price-text">Cada cuenta nueva recibe 10 créditos gratis al registrarse. ¿Necesitas más? Contáctanos desde tu cuenta dentro de la app.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="panel">
+  <div class="panel-header">
+    <span class="panel-bracket">[</span>
+    <span class="panel-title" data-i18n="title-founder">FOUNDER</span>
+    <span class="panel-bracket">]</span>
+  </div>
+  <div class="founder">
+    <div class="avatar" aria-hidden="true">NI</div>
+    <div class="founder-text">
+      <p class="founder-name">NICOLÁS IBIETA</p>
+      <p class="founder-role" data-i18n="founder-role">FOUNDER · POSTPRODUCCIÓN</p>
+      <p class="founder-bio" data-i18n="founder-bio">Profesional chileno de postproducción. MediaProNamer nace después de años viendo el mismo problema: archivos audiovisuales sin estándar. Una herramienta hecha desde la sala de post, para la sala de post.</p>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-line">&gt; END_OF_TRANSMISSION</div>
+  <a href="mailto:hello@mediapronamer.com" class="footer-mail">hello@mediapronamer.com</a>
+  <p class="footer-tag" data-i18n="footer-tag">NAMING MATTERS.</p>
+  <p class="footer-copy">© 2026 MEDIAPRONAMER · NICOLÁS IBIETA</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
