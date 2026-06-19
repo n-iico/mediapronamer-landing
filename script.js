@@ -10,7 +10,8 @@ const T = {
     h1d: "audiovisuales",
     h1e: " reales.",
     sub: "Crea nombres claros, técnicos y consistentes para edición, color, VFX, sonido, delivery y archivo.",
-    tag: '&gt; Nunca más <code>final_final_este_si.mov</code>',
+    "st-1": "Nunca más",
+    "st-file": "final_final_este_si.mov",
     cta1: "ENTRAR A LA APP",
     cta2: "CÓMO FUNCIONA",
 
@@ -50,7 +51,8 @@ const T = {
     h1d: "media",
     h1e: " workflows.",
     sub: "Create clear, technical, consistent names for editing, color, VFX, sound, delivery and archive.",
-    tag: '&gt; Never again <code>final_final_this_one.mov</code>',
+    "st-1": "Never again",
+    "st-file": "final_final_this_one.mov",
     cta1: "OPEN THE APP",
     cta2: "HOW IT WORKS",
 

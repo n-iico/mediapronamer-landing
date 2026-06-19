@@ -238,13 +238,156 @@ body {
   letter-spacing: 0.5px;
 }
 
-.tagline code {
+/* ============================================
+   SHOWCASE (Before/After protagonista)
+   ============================================ */
+
+.showcase {
+  position: relative;
+  z-index: 5;
+  max-width: 1000px;
+  margin: 8px auto 32px;
+  padding: 36px 36px 44px;
+}
+
+.showcase-label {
+  font-family: var(--font-pixel);
+  font-size: 12px;
+  color: var(--cyan);
+  letter-spacing: 2px;
+  text-align: center;
+  margin-bottom: 36px;
+  text-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+}
+
+.showcase-flow {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  gap: 24px;
+  align-items: stretch;
+}
+
+.show-file {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 28px 24px;
+  border-radius: 0;
+  min-height: 130px;
+}
+
+.show-file code {
   font-family: var(--font-mono);
-  color: var(--pink-soft);
-  background: rgba(255, 0, 128, 0.1);
-  padding: 3px 7px;
-  border: 1px solid var(--line-dim);
-  font-size: 11px;
+  word-break: break-all;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.show-bad {
+  background: rgba(255, 0, 128, 0.07);
+  border: 1px solid rgba(255, 0, 128, 0.4);
+}
+
+.show-bad code { color: var(--pink-soft); opacity: 0.85; }
+
+.show-good {
+  background: rgba(0, 255, 255, 0.07);
+  border: 1px solid var(--cyan);
+  box-shadow:
+    inset 0 0 30px rgba(0, 255, 255, 0.08),
+    0 0 28px rgba(0, 255, 255, 0.2);
+}
+
+.show-good code {
+  color: var(--cyan-soft);
+  text-shadow: 0 0 8px rgba(0, 255, 255, 0.3);
+}
+
+.show-tag {
+  font-family: var(--font-pixel);
+  font-size: 10px;
+  letter-spacing: 1.5px;
+  margin-bottom: 16px;
+  display: block;
+}
+
+.show-arrow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 0 4px;
+}
+
+.arrow-glyph {
+  font-family: var(--font-pixel);
+  font-size: 28px;
+  color: var(--pink);
+  text-shadow:
+    0 0 12px var(--pink),
+    0 0 28px rgba(255, 0, 128, 0.5);
+  animation: arrowPulse 2s ease-in-out infinite;
+}
+
+@keyframes arrowPulse {
+  0%, 100% { transform: translateX(0); opacity: 1; }
+  50% { transform: translateX(4px); opacity: 0.7; }
+}
+
+.arrow-label {
+  font-family: var(--font-mono);
+  font-size: 8px;
+  letter-spacing: 1.5px;
+  color: var(--cyan);
+  white-space: nowrap;
+  writing-mode: horizontal-tb;
+}
+
+/* ============================================
+   STATEMENT ("Nunca más...")
+   ============================================ */
+
+.statement {
+  position: relative;
+  z-index: 5;
+  max-width: 1000px;
+  margin: 0 auto 40px;
+  padding: 48px 36px;
+  text-align: center;
+  border-top: 1px solid var(--line-dim);
+  border-bottom: 1px solid var(--line-dim);
+  background:
+    radial-gradient(ellipse at center, rgba(255, 0, 128, 0.06), transparent 70%);
+}
+
+.statement-text {
+  font-family: var(--font-pixel);
+  font-size: clamp(15px, 2.6vw, 26px);
+  line-height: 1.6;
+  letter-spacing: 1px;
+  color: var(--ink);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.statement-prefix {
+  color: var(--cyan);
+  text-shadow: 0 0 10px rgba(0, 255, 255, 0.6);
+}
+
+.statement-file {
+  color: var(--pink);
+  text-shadow:
+    0 0 12px var(--pink),
+    0 0 30px rgba(255, 0, 128, 0.5);
+  text-decoration: line-through;
+  text-decoration-color: rgba(0, 255, 255, 0.7);
+  text-decoration-thickness: 2px;
+  word-break: break-all;
 }
 
 .cta {
@@ -641,6 +784,17 @@ body {
   .logo { font-size: 14px; gap: 10px; }
   .logo-neon { font-size: 8px; }
   .sub, .about, .feat p, .founder-bio, .pricing-text p { font-size: 17px; }
+  .showcase { padding: 24px 18px 32px; }
+  .showcase-flow { grid-template-columns: 1fr; gap: 16px; }
+  .show-arrow { flex-direction: row; gap: 14px; padding: 6px 0; }
+  .arrow-glyph { transform: rotate(90deg); font-size: 22px; }
+  @keyframes arrowPulse {
+    0%, 100% { transform: rotate(90deg) translateX(0); opacity: 1; }
+    50% { transform: rotate(90deg) translateX(4px); opacity: 0.7; }
+  }
+  .show-file { min-height: 0; padding: 22px 18px; }
+  .show-file code { font-size: 12px; }
+  .statement { padding: 36px 22px; }
 }
 
 @media (max-width: 420px) {
