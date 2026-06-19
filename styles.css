@@ -366,7 +366,10 @@ body {
   font-size: clamp(15px, 2.6vw, 26px);
   line-height: 1.6;
   letter-spacing: 1px;
-  color: var(--ink);
+  color: var(--pink);
+  text-shadow:
+    0 0 12px var(--pink),
+    0 0 30px rgba(255, 0, 128, 0.5);
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -375,17 +378,17 @@ body {
 }
 
 .statement-prefix {
-  color: var(--cyan);
-  text-shadow: 0 0 10px rgba(0, 255, 255, 0.6);
-}
-
-.statement-file {
   color: var(--pink);
   text-shadow:
     0 0 12px var(--pink),
     0 0 30px rgba(255, 0, 128, 0.5);
+}
+
+.statement-file {
+  color: #ffffff;
+  text-shadow: none;
   text-decoration: line-through;
-  text-decoration-color: rgba(0, 255, 255, 0.7);
+  text-decoration-color: var(--pink);
   text-decoration-thickness: 2px;
   word-break: break-all;
 }
