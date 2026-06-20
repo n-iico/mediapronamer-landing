@@ -12,8 +12,8 @@ const T = {
     "st-file": "final_final_este_si.mov",
 
     "title-before": "ANTES / DESPUÉS",
-    bad: "✕ CAOS",
-    good: "✓ ORDEN",
+    bad: "✕ ANTES",
+    good: "✓ DESPUÉS",
 
     "title-what": "QUÉ ES",
     "about-1": "<strong>Media Pro Namer</strong> es una herramienta profesional de naming para archivos audiovisuales.",
@@ -67,8 +67,8 @@ const T = {
     "st-file": "final_final_this_one.mov",
 
     "title-before": "BEFORE / AFTER",
-    bad: "✕ CHAOS",
-    good: "✓ ORDER",
+    bad: "✕ BEFORE",
+    good: "✓ AFTER",
 
     "title-what": "WHAT IS IT",
     "about-1": "<strong>Media Pro Namer</strong> is a professional naming tool for audiovisual files.",
