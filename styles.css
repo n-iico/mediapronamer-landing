@@ -615,7 +615,7 @@ body {
   transform: translateY(-2px);
 }
 
-.plan-pro {
+.plan-free {
   border-color: var(--pink);
   background: linear-gradient(180deg, rgba(255, 0, 128, 0.08), rgba(0, 255, 255, 0.03));
   box-shadow: 0 0 24px rgba(255, 0, 128, 0.2);
@@ -643,7 +643,7 @@ body {
   letter-spacing: 1px;
 }
 
-.plan-pro .plan-name {
+.plan-free .plan-name {
   color: var(--pink);
   text-shadow: 0 0 8px rgba(255, 0, 128, 0.6);
 }
@@ -663,6 +663,12 @@ body {
   color: var(--ink-2);
   line-height: 1.35;
   margin-top: auto;
+}
+
+.plan-cta {
+  margin-top: 18px;
+  justify-content: center;
+  width: 100%;
 }
 
 .plans-note {

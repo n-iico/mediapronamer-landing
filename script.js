@@ -5,22 +5,22 @@
 const T = {
   es: {
     "st-1": "Nunca más",
-    h1: "Professional file naming for audiovisual workflows.",
+    h1: "Naming profesional de archivos para flujos audiovisuales.",
     cta1: "GENERAR NOMBRE AHORA",
     cta2: "CÓMO FUNCIONA",
 
     "st-file": "final_final_este_si.mov",
 
-    "title-before": "BEFORE / AFTER",
+    "title-before": "ANTES / DESPUÉS",
     bad: "✕ CAOS",
     good: "✓ ORDEN",
 
-    "title-what": "WHAT IS IT",
-    "about-1": "<strong>Media Pro Namer</strong> is a professional naming tool for audiovisual files.",
-    "about-2": "It helps editors, creators and post-production teams generate clear and consistent filenames for editing, color, VFX, sound, delivery and archive.",
-    "about-3": "Built for real workflows. Designed to avoid chaos. Focused only on naming.",
+    "title-what": "QUÉ ES",
+    "about-1": "<strong>Media Pro Namer</strong> es una herramienta profesional de naming para archivos audiovisuales.",
+    "about-2": "Ayuda a editores, creadores y equipos de postproducción a generar nombres de archivo claros y consistentes para edición, color, VFX, sonido, delivery y archivo.",
+    "about-3": "Hecha para flujos reales. Diseñada para evitar el caos. Enfocada solo en naming.",
 
-    "title-feat": "CORE FEATURES",
+    "title-feat": "CARACTERÍSTICAS",
     "f1-t": "CAMPOS TÉCNICOS AUDIOVISUALES",
     "f1-d": "Resolución, espacio de color, códec, frame rate, aspect ratio, audio, fecha y más.",
     "f2-t": "ORDEN CONFIGURABLE",
@@ -30,30 +30,30 @@ const T = {
     "f4-t": "LIVIANO Y ESPECÍFICO",
     "f4-d": "Hecho desde la sala de post. Sin curva de aprendizaje absurda.",
 
-    "title-edu": "EDUCATION",
+    "title-edu": "EDUCACIÓN",
     "edu-head": "Aprende a nombrar archivos como se trabaja en la industria.",
     "edu-body": "Un acceso pensado para estudiantes, docentes, escuelas de cine, universidades y programas audiovisuales que quieren enseñar flujos de trabajo profesionales desde el aula.",
-    "edu-cta": "SOLICITAR ACCESO EDUCATIVO",
 
-    "title-price": "PRICING",
+    "title-price": "PRECIOS",
     "plan-free-name": "FREE",
+    "plan-free-badge": "PRUEBA",
     "plan-free-price": "10 créditos gratis",
     "plan-free-desc": "Ideal para probar la herramienta.",
-    "plan-pro-badge": "POPULAR",
+    "plan-free-cta": "PROBAR AHORA",
     "plan-pro-name": "PRO",
     "plan-pro-price": "Créditos adicionales · mensual · lifetime",
     "plan-pro-desc": "Para editores, freelancers y postproductoras.",
     "plan-teams-name": "TEAMS",
     "plan-teams-price": "Licencias o créditos por equipo",
     "plan-teams-desc": "Para productoras, agencias y equipos de post.",
-    "plan-edu-name": "EDUCATION",
+    "plan-edu-name": "EDUCACIÓN",
     "plan-edu-price": "Acceso educativo para estudiantes, docentes e instituciones",
     "plan-edu-desc": "Ideal para aprender y enseñar flujos de naming profesional.",
-    "plans-note": "&gt; Planes Pro, Teams y Education: contáctanos desde tu cuenta dentro de la app.",
+    "plans-note": "&gt; Planes Pro, Teams y Educación: contáctanos desde tu cuenta dentro de la app.",
 
-    "title-founder": "FOUNDER",
-    "founder-role": "FOUNDER · POSTPRODUCCIÓN",
-    "founder-bio": "Profesional chileno de postproducción. MediaProNamer nace después de años viendo el mismo problema: archivos audiovisuales sin estándar. Una herramienta hecha desde la sala de post, para la sala de post.",
+    "title-founder": "FUNDADOR",
+    "founder-role": "FUNDADOR · POSTPRODUCCIÓN",
+    "founder-bio": "Profesional chileno de postproducción. Media Pro Namer nace después de años viendo el mismo problema: archivos audiovisuales sin estándar. Una herramienta hecha desde la sala de post, para la sala de post.",
 
     "footer-tag": "NAMING MATTERS."
   },
@@ -88,13 +88,13 @@ const T = {
     "title-edu": "EDUCATION",
     "edu-head": "Learn to name files the way the industry works.",
     "edu-body": "Access designed for students, teachers, film schools, universities and audiovisual programs that want to teach professional workflows from the classroom.",
-    "edu-cta": "REQUEST EDUCATIONAL ACCESS",
 
     "title-price": "PRICING",
     "plan-free-name": "FREE",
+    "plan-free-badge": "TRY",
     "plan-free-price": "10 free credits",
     "plan-free-desc": "Ideal to try the tool.",
-    "plan-pro-badge": "POPULAR",
+    "plan-free-cta": "TRY NOW",
     "plan-pro-name": "PRO",
     "plan-pro-price": "Extra credits · monthly · lifetime",
     "plan-pro-desc": "For editors, freelancers and post houses.",
@@ -108,7 +108,7 @@ const T = {
 
     "title-founder": "FOUNDER",
     "founder-role": "FOUNDER · POST-PRODUCTION",
-    "founder-bio": "Chilean post-production professional. MediaProNamer was born after years seeing the same problem: audiovisual files with no standard. A tool built from inside the post room, for the post room.",
+    "founder-bio": "Chilean post-production professional. Media Pro Namer was born after years seeing the same problem: audiovisual files with no standard. A tool built from inside the post room, for the post room.",
 
     "footer-tag": "NAMING MATTERS."
   }
