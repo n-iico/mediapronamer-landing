@@ -278,16 +278,6 @@ body {
   padding: 36px 36px 44px;
 }
 
-.showcase-label {
-  font-family: var(--font-pixel);
-  font-size: 12px;
-  color: var(--cyan);
-  letter-spacing: 2px;
-  text-align: center;
-  margin-bottom: 36px;
-  text-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
-}
-
 .showcase-flow {
   display: grid;
   grid-template-columns: 1fr 1fr;

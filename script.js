@@ -60,7 +60,7 @@ const T = {
 
   en: {
     "st-1": "Never again",
-    h1: "Professional file naming for audiovisual workflows.",
+    h1: "Nombres profesionales de archivos audiovisuales.",
     cta1: "GENERATE A NAME NOW",
     cta2: "HOW IT WORKS",
 
@@ -131,9 +131,10 @@ function setLang(lang) {
   });
 }
 
-// Init: cargar preferencia guardada o usar ES por defecto
+// Init: aplicar SIEMPRE el idioma (guardado o ES por defecto)
+// para garantizar que todos los textos queden en un solo idioma al cargar.
 (function init() {
   let saved = "es";
   try { saved = localStorage.getItem("mpn-lang") || "es"; } catch (e) {}
-  if (saved !== "es") setLang(saved);
+  setLang(saved);
 })();
