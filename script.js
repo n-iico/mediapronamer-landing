@@ -5,7 +5,7 @@
 const T = {
   es: {
     "st-1": "Nunca más",
-    h1: "Naming profesional de archivos para flujos audiovisuales.",
+    h1: "Nombres profesionales de archivos audiovisuales.",
     cta1: "GENERAR NOMBRE AHORA",
     cta2: "CÓMO FUNCIONA",
 
@@ -60,7 +60,7 @@ const T = {
 
   en: {
     "st-1": "Never again",
-    h1: "Nombres profesionales de archivos audiovisuales.",
+    h1: "Professional naming for audiovisual files.",
     cta1: "GENERATE A NAME NOW",
     cta2: "HOW IT WORKS",
 
