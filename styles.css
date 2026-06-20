@@ -93,10 +93,8 @@ body {
 }
 
 .logo-word {
-  color: var(--pink);
-  text-shadow:
-    0 0 8px var(--pink),
-    0 0 20px rgba(255, 0, 128, 0.5);
+  color: #ffffff;
+  text-shadow: 0 0 8px rgba(255, 255, 255, 0.25);
 }
 
 .logo-neon {
@@ -506,6 +504,12 @@ body {
 .about strong {
   color: var(--ink);
   font-weight: 700;
+}
+
+.about-tagline {
+  color: var(--cyan-soft);
+  margin-top: 8px;
+  text-shadow: 0 0 10px rgba(0, 255, 255, 0.2);
 }
 
 /* ============================================

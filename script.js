@@ -5,8 +5,7 @@
 const T = {
   es: {
     "st-1": "Nunca más",
-    h1: "De nombres caóticos a archivos listos para postproducción.",
-    sub: "Genera nombres técnicos y consistentes para edición, color, VFX, sonido, delivery y archivo.",
+    h1: "Professional file naming for audiovisual workflows.",
     cta1: "GENERAR NOMBRE AHORA",
     cta2: "CÓMO FUNCIONA",
 
@@ -17,8 +16,9 @@ const T = {
     good: "✓ ORDEN",
 
     "title-what": "WHAT IS IT",
-    "about-1": "<strong>MediaProNamer</strong> es una herramienta profesional para crear nombres de archivos audiovisuales claros, técnicos y consistentes.",
-    "about-2": "Diseñada para edición, postproducción, VFX, broadcast, delivery y archivo. No es un MAM. No es un DAM. Es naming profesional. Liviano, específico, directo.",
+    "about-1": "<strong>Media Pro Namer</strong> is a professional naming tool for audiovisual files.",
+    "about-2": "It helps editors, creators and post-production teams generate clear and consistent filenames for editing, color, VFX, sound, delivery and archive.",
+    "about-3": "Built for real workflows. Designed to avoid chaos. Focused only on naming.",
 
     "title-feat": "CORE FEATURES",
     "f1-t": "CAMPOS TÉCNICOS AUDIOVISUALES",
@@ -60,8 +60,7 @@ const T = {
 
   en: {
     "st-1": "Never again",
-    h1: "From chaotic names to files ready for post-production.",
-    sub: "Generate technical, consistent names for editing, color, VFX, sound, delivery and archive.",
+    h1: "Professional file naming for audiovisual workflows.",
     cta1: "GENERATE A NAME NOW",
     cta2: "HOW IT WORKS",
 
@@ -72,8 +71,9 @@ const T = {
     good: "✓ ORDER",
 
     "title-what": "WHAT IS IT",
-    "about-1": "<strong>MediaProNamer</strong> is a professional tool to create clear, technical and consistent file names for audiovisual workflows.",
-    "about-2": "Built for editing, post-production, VFX, broadcast, delivery and archive. It's not a MAM. It's not a DAM. It's professional naming. Lightweight, specific, direct.",
+    "about-1": "<strong>Media Pro Namer</strong> is a professional naming tool for audiovisual files.",
+    "about-2": "It helps editors, creators and post-production teams generate clear and consistent filenames for editing, color, VFX, sound, delivery and archive.",
+    "about-3": "Built for real workflows. Designed to avoid chaos. Focused only on naming.",
 
     "title-feat": "CORE FEATURES",
     "f1-t": "AUDIOVISUAL TECHNICAL FIELDS",
