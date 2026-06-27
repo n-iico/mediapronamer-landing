@@ -5,7 +5,7 @@
 const T = {
   es: {
     "st-1": "Nunca más",
-    h1: "Convierte nombres caóticos en archivos técnicos, claros y listos para producción.",
+    h1: "Convierte nombres caóticos en archivos técnicos y claros.",
     sub2: "Diseñado para edición, color, VFX, sonido, delivery, archivo e instituciones audiovisuales.",
     cta1: "GENERAR NOMBRE AHORA",
     cta2: "CÓMO FUNCIONA",
@@ -76,7 +76,7 @@ const T = {
 
   en: {
     "st-1": "Never again",
-    h1: "Turn chaotic names into technical, clear files ready for production.",
+    h1: "Turn chaotic names into technical, clear files.",
     sub2: "Designed for editing, color, VFX, sound, delivery, archive and audiovisual institutions.",
     cta1: "GENERATE A NAME NOW",
     cta2: "HOW IT WORKS",
