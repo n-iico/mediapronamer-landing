@@ -5,8 +5,7 @@
 const T = {
   es: {
     "st-1": "Nunca más",
-    h1: "Nombres profesionales de archivos audiovisuales.",
-    sub: "Convierte nombres caóticos en archivos técnicos, claros y listos para producción.",
+    h1: "Convierte nombres caóticos en archivos técnicos, claros y listos para producción.",
     sub2: "Diseñado para edición, color, VFX, sonido, delivery, archivo e instituciones audiovisuales.",
     cta1: "GENERAR NOMBRE AHORA",
     cta2: "CÓMO FUNCIONA",
@@ -27,6 +26,15 @@ const T = {
     "why-2": "Ideal para editores, asistentes de edición, coloristas, sonidistas, VFX artists, productoras, agencias y estudiantes que quieren trabajar con estándares reales de la industria.",
 
     "title-for": "HECHO PARA",
+    "bf-1": "Editores",
+    "bf-2": "Asistentes de edición",
+    "bf-3": "Coloristas",
+    "bf-4": "VFX",
+    "bf-5": "Sonido",
+    "bf-6": "Postproductoras",
+    "bf-7": "Agencias",
+    "bf-8": "Escuelas de cine",
+    "bf-9": "Universidades",
 
     "title-feat": "CARACTERÍSTICAS",
     "f1-t": "CAMPOS TÉCNICOS AUDIOVISUALES",
@@ -68,8 +76,7 @@ const T = {
 
   en: {
     "st-1": "Never again",
-    h1: "Professional naming for audiovisual files.",
-    sub: "Turn chaotic names into technical, clear files ready for production.",
+    h1: "Turn chaotic names into technical, clear files ready for production.",
     sub2: "Designed for editing, color, VFX, sound, delivery, archive and audiovisual institutions.",
     cta1: "GENERATE A NAME NOW",
     cta2: "HOW IT WORKS",
@@ -90,6 +97,15 @@ const T = {
     "why-2": "Ideal for editors, assistant editors, colorists, sound mixers, VFX artists, production companies, agencies and students who want to work with real industry standards.",
 
     "title-for": "BUILT FOR",
+    "bf-1": "Editors",
+    "bf-2": "Assistant Editors",
+    "bf-3": "Colorists",
+    "bf-4": "VFX",
+    "bf-5": "Sound",
+    "bf-6": "Post Houses",
+    "bf-7": "Agencies",
+    "bf-8": "Film Schools",
+    "bf-9": "Universities",
 
     "title-feat": "CORE FEATURES",
     "f1-t": "AUDIOVISUAL TECHNICAL FIELDS",
